@@ -89,6 +89,7 @@ void MainWindow::tabletimeslot() //动态表显示员工信息
 //                  ","<<query.value(3).toString();
         t++;
     }
+    ui->view->setRowCount(t+1);
 }
 
 void MainWindow::on_admin_clicked() //判断管理员按钮，并且进行工资标准设置
